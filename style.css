@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    color: snow;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: darkgreen;
+    background-size: cover;
+    color: snow;
+}
+section h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+.centerDiv{
+    text-align: center;
+    margin: 30px 20px;
+    padding: 40px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    background: darkolivegreen;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: 2px solid #fff;
+    margin-left: 400px;
+    box-shadow: 10px 10px 32px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 10px 10px 32px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 10px 10px 32px 1px rgba(0,0,0,0.67);
+}
+.details{
+    padding: 30px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.details input{
+    height: 30px;
+    width: 117px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 190px;
+    outline: none;
+    border-radius: 5px;
+    font: 400;
+    font-size: 17px;
+    padding-left: 5px;
+    font-family: cursive;
+    background: darkgreen;
+}
+#imgchange{
+    height: 162px;
+}
+#imgchange:hover{
+    background: darkcyan;
+    border: 3px solid darkgreen;
+    box-shadow: 10px 1px 38px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 10px 1px 38px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 10px 1px 38px 0px rgba(0,0,0,0.35);
+}
+button{
+    margin: 15px;
+    font-size: 22px;
+    border: 3px solid darkgreen;
+    border-radius: 5px;
+    width: 134px;
+    height: 40px;
+    cursor: pointer;
+    color: black;
+    background: darkgreen;
+}
